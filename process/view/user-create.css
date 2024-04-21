@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.box {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 5px;
+    font-size: large;
+    padding-left: 1vw;
+    margin: 10px;
+}
+.form-box{
+    width: 80%;
+    display: flex;
+}
+.form-container{
+    transform: translateY(10vh);
+    display: grid;
+    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 9vh;
+    
+}
+.info1{
+    text-align: center;
+    width: 50%;
+}
+.info2{
+    text-align: center;
+    width: 50%;
+}
+.register-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.register-button{
+    width: 19%;
+    transform: translateY(4vh);
+    
+}
